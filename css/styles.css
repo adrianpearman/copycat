@@ -1,19 +1,28 @@
+* {
+  list-style: none;
+}
+
 html {
   font-family: arial
 }
 
-
+article{
+  padding: 10px;
+}
 .navbar {
   background-color: #06D6A0;
   color: white;
-
+  padding:5px 0px 0px 10px;
 }
 .navbutton {
-
+  text-align: center;
+  display: inline-flex;
+  float: right;
 }
 .welcomepage {
   background-color: #26547C;
   color: white;
+  display: inline-flex;
 }
 
 .cats {
@@ -26,6 +35,29 @@ html {
 
 .about {
   background-color: #26547C;
+  color: white;
+}
+
+.selector {
+  color: #EF476F;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  float: left;
+  width:33.3333%;
+}
+.photos {
+  border: 7px solid black;
+
+  width: 33.3333%;
+  max-width: 75px;
+}
+h2 {
+  text-align: center;
+}
+
+.welcomepage div img {
+  max-width: 532px;
 }
 /*header {
     background-color: #06D6A0;
