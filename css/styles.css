@@ -5,9 +5,26 @@
 html {
   font-family: arial
 }
+h2 {
+  text-align: center;
+}
 
 article{
   padding: 10px;
+}
+footer{
+  background-color: #06D6A0;
+  color: black;
+  padding:1px 0px 10px 0px;
+  text-align: right;
+}
+h3 {
+  color: #EF476F;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  float: left;
+  width:33.3333%;
 }
 .navbar {
   background-color: #06D6A0;
@@ -23,39 +40,47 @@ article{
   background-color: #26547C;
   color: white;
   display: inline-flex;
+  width: 80%;
+  margin: 0px 10% 0px 10%;
 }
 
 .cats {
   background-color: #FFD166;
+  width: 80%;
+  margin: 0px 10% 0px 10%;
+  padding: 10px;
 }
 
 .products {
   background-color: #F2F2F2;
+  margin: 0px 10% 0px 10%;
+  padding: 10px;
 }
 
 .about {
   background-color: #26547C;
   color: white;
+  margin: 0px 10% 0px 10%;
+  padding: 10px;
 }
 
-.selector {
-  color: #EF476F;
-  text-transform: uppercase;
-  display: flex;
-  text-align: center;
-  float: left;
-  width:33.3333%;
+.buttons {
+  display: inline-block;
 }
+
 .photos {
   border: 7px solid black;
 
   width: 33.3333%;
   max-width: 75px;
 }
-h2 {
+.welcometext {
   text-align: center;
+    padding-left: 25px;
 }
-
+.copyright {
+  padding: 10px;
+}
 .welcomepage div img {
   max-width: 532px;
 }
