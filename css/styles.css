@@ -26,21 +26,33 @@ h3 {
   float: left;
   width:33.3333%;
 }
+div{
+  display: block;
+}
+img {
+  max-width: 100%;
+}
+.photos img {
+  width: 90%;
+}
 .navbar {
   background-color: #06D6A0;
   color: white;
-  padding:5px 0px 0px 10px;
+  padding:30px 50px;
 }
 .navbutton {
   text-align: center;
   display: inline-flex;
   float: right;
+  padding: 0;
+
 }
 .welcomepage {
   background-color: #26547C;
   color: white;
   display: inline-flex;
   width: 80%;
+  padding: 5px;
   margin: 0px 10% 0px 10%;
 }
 
@@ -48,31 +60,38 @@ h3 {
   background-color: #FFD166;
   width: 80%;
   margin: 0px 10% 0px 10%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .products {
   background-color: #F2F2F2;
+  width: 80%;
   margin: 0px 10% 0px 10%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .about {
   background-color: #26547C;
   color: white;
+  width: 80%;
   margin: 0px 10% 0px 10%;
-  padding: 10px;
+  padding: 5px;
 }
 
-.buttons {
+.button {
   display: inline-block;
+  padding-right: 10px;
+  float: right;
 }
 
 .photos {
-  border: 7px solid black;
-
-  width: 33.3333%;
+  border: 4px solid black;
+  width: 33%;
+  display: inline-flex;
+  float: left;
+  height: 50%
   max-width: 75px;
+  padding: 10px;
 }
 .welcometext {
   text-align: center;
@@ -83,6 +102,12 @@ h3 {
 }
 .welcomepage div img {
   max-width: 532px;
+}
+.catphotos{
+  text-align: center;
+  display: inline-flex;
+  padding: 10px;
+  overflow: hidden;
 }
 /*header {
     background-color: #06D6A0;
