@@ -3,7 +3,8 @@
 }
 
 html {
-  font-family: arial
+  font-family: arial;
+  box-sizing: border-box;
 }
 h2 {
   text-align: center;
@@ -24,7 +25,8 @@ h3 {
   display: flex;
   text-align: center;
   float: left;
-  width:33.3333%;
+  width: 30%;
+  margin-left: 80%;
 }
 div{
   display: block;
@@ -86,12 +88,13 @@ img {
 
 .photos {
   border: 4px solid black;
-  width: 33%;
-  display: inline-flex;
+  width: 30%;
+  display: inline-block;
   float: left;
   height: 50%
   max-width: 75px;
-  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 1%;
 }
 .welcometext {
   text-align: center;
@@ -105,9 +108,21 @@ img {
 }
 .catphotos{
   text-align: center;
-  display: inline-flex;
+  display: inline-block;
   padding: 10px;
   overflow: hidden;
+  margin-left: 3%;
+}
+.team {
+  display: inline-flex;
+  /* padding-right: 4px; */
+  position: relative;
+  padding-left: 20%;
+  margin: auto;
+}
+
+.aboutfun, .aboutvalues, .aboutmeow {
+  padding-right: 120px;
 }
 /*header {
     background-color: #06D6A0;
